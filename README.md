@@ -9,4 +9,5 @@ Install dependencies with the following:
 > cd youtube-search-with-react
 > npm install
 > npm start
+> visit http://localhost:8080/
 ```
