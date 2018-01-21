@@ -1,4 +1,4 @@
-# Youtube-search-with-react
+# youtube-search-with-react
 
 ## Getting Started
 
