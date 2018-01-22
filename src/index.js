@@ -6,10 +6,9 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyABghF8fi0J1Ln0MZr3MpSGmjATFmO04pw'; //   You API_KEY
+const API_KEY = 'AIzaSyABghF8fi0J1Ln0MZr3MpSGmjATFmO04pw'; //   Your API_KEY
 
-//  Create a new component. This component should produce
-//  some HTML
+//  Create a new component.
 class App extends Component  {
   constructor(props) {
     super(props);
@@ -19,7 +18,7 @@ class App extends Component  {
       selectedVideo: null
     };
 
-    this.videoSearch('surfboards');
+    this.videoSearch('the science of surfboards');
   }
 
   videoSearch(term) {
@@ -33,7 +32,7 @@ class App extends Component  {
   }
 
   render() {
-    const videoSearch = _.debounce((term) => { this.videoSearch(term)}, 300);
+    const videoSearch = _.debounce((term) => { this.videoSearch(term)}, 1000);
 
     return (
       <div>
