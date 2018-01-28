@@ -1,18 +1,18 @@
 body {
-    background: #252525 !important;
+    background: #1e2541 !important; /* Old browsers */
     font-family: "Open Sans", sans-serif !important;
 }
 
 .search-bar {
     margin: 20px;
     text-align: center;
-    background: #252525;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background: #191e38;
+
 }
 
 .search-bar input {
     width: 75%;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #52629D !important;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     /*padding: 30px 48px 30px 22px;*/
@@ -22,6 +22,11 @@ body {
     height: auto;
     line-height: 48px;
     caret-color: #fff;
+
+}
+
+input::placeholder {
+    color: #52629D;
 }
 
 input:focus{
@@ -37,23 +42,27 @@ input:focus{
     margin-bottom: 30px;
     padding: 10px;
     border: 1px solid #dddddd1f;
-    border-radius: 4px;
     color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.list-custom {
+    border-radius: 0 !important;
 }
 
 .list-group-item {
     cursor: pointer;
-    background-color: #171616 !important;
+    background-color: #161d35 !important;
+    color: #52629D;
+    margin-bottom: 3px !important;
     border: none !important;
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
 }
 
 .list-group-item:hover {
-    background-color: #404040 !important;
+    background-color: #222b4a !important;
 }
 
 .video-box {

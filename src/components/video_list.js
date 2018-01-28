@@ -11,7 +11,7 @@ const VideoList = (props) => {
     );
   });
   return (
-    <ul className="row list-group">
+    <ul className="col-md-4">
       {videoItems}
     </ul>
   );

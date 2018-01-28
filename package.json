@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watch"
   },
   "author": "Jhonatan Tomimatsu",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
