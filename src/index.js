@@ -18,7 +18,7 @@ class App extends Component  {
       selectedVideo: null
     };
 
-    this.videoSearch('using science to surf better');
+    this.videoSearch('Cyberpunk 2077 Teaser Trailer');
   }
 
   videoSearch(term) {

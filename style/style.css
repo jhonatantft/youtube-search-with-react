@@ -45,14 +45,29 @@ input:focus{
     color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.list-custom {
+.video-detail .embed-responsive {
+    box-shadow: 0 50px 65px -20px #050d1f;
+    z-index: -1;
+}
+
+.video-detail .details .details-title {
+    color: #dcdcdc;
+}
+.video-detail .details .details-channel-title {
+    color: #52629D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.list-item-custom {
     border-radius: 0 !important;
+    min-height: 160px;
 }
 
 .list-group-item {
     cursor: pointer;
     background-color: #161d35 !important;
-    color: #52629D;
+    color: #dcdcdc;
     margin-bottom: 3px !important;
     border: none !important;
     -webkit-transition: all .2s ease-in;
@@ -63,6 +78,12 @@ input:focus{
 
 .list-group-item:hover {
     background-color: #222b4a !important;
+    transform: scale(1.03);
+    -webkit-transition-duration:  0.15s;
+    -moz-transition-duration:  0.15s;
+    -o-transition-duration:  0.15s;
+    transition-duration:  0.15s;
+    box-shadow: 0 2px 0 #00000085;
 }
 
 .video-box {
@@ -74,7 +95,16 @@ input:focus{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #ffffff;
+}
+
+.media-heading-channel-title {
+    color: #52629D;
+    font-weight: bold;
+}
+
+.media-heading-channel-date {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .video-image {
