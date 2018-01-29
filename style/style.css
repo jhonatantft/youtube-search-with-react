@@ -47,7 +47,6 @@ input:focus{
 
 .video-detail .embed-responsive {
     box-shadow: 0 50px 65px -20px #050d1f;
-    z-index: -1;
 }
 
 .video-detail .details .details-title {
