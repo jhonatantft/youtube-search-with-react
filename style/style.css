@@ -33,6 +33,28 @@ input:focus{
     outline: none;
 }
 
+.loading-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin-top: -35px;
+    margin-left: -35px;
+    border-radius: 50%;
+    border: 2px solid #52629d;
+    border-top-color: #fff;
+    animation: loading-video .6s linear infinite;
+}
+
+@keyframes loading-video {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .video-item img {
     max-width: 64px;
 }
@@ -43,6 +65,17 @@ input:focus{
     padding: 10px;
     border: 1px solid #dddddd1f;
     color: rgba(255, 255, 255, 0.5) !important;
+    animation-name: details;
+    animation-duration: 2s;
+}
+
+@keyframes details {
+    0%, 50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .video-detail .embed-responsive {
@@ -61,6 +94,31 @@ input:focus{
 .list-item-custom {
     border-radius: 0 !important;
     min-height: 160px;
+    animation-name: list-item;
+    animation-duration: 1s;
+}
+
+@keyframes list-item {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.video-detail-animation {
+    animation-name: video-detail-animation;
+    animation-duration: 1s;
+}
+
+@keyframes video-detail-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .list-group-item {
