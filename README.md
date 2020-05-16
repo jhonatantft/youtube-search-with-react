@@ -1,6 +1,6 @@
 # Youtube search with react
 
-## [Live Demo](https://jhonatantft.github.io/youtube-search-with-react/)
+### [Live Demo](https://jhonatantft.github.io/youtube-search-with-react/)
 
 Desktop             |  Mobile
 :-------------------------:|:-------------------------:
