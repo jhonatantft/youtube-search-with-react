@@ -17,3 +17,7 @@ Install dependencies with the following:
 > yarn start
 > visit http://localhost:8080/
 ```
+
+## License
+
+[MIT license](LICENSE)
