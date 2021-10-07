@@ -6,7 +6,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyClIseoWK4yJFGVLcwLwxBUWJ8ywlHnXxk';
+const API_KEY = process.env.REACT_APP_APIKEY;
 
 //  Create a new component.
 class App extends Component  {
